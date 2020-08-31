@@ -1,0 +1,66 @@
+ALL ON GitHub, then Heroku
+
+Main item in Portfolio
+Solve a business problem:
+Build a BugTracker/IssueTracker
+
+"fieldForceAutomation"
+"helpDeskSystem"
+"notificationSystem"
+
+Example Software:
+Gira
+BugBugs
+BugZilla
+
+How do you handle notifications?
+How do you track?
+
+Build a Portfolio
+Use your bugtracker to track your progress
+
+Use bootstrap template
+
+clean
+UI responsive
+need database
+
+CRUD:
+
+Create
+Read
+Update
+Delete
+
+3rd Party Services:
+OffZero handles Security
+Authentication
+Autorization (Admin/User)
+
+"I utilized OffZero"
+"How did you?"
+
+MBI
+
+write down features you want
+week sprints (working sprint)
+track progress
+create a deadline
+focus!
+
+
+
+
+What is SRS?
+
+A software requirements specification (SRS) is a description of a software system to be developed.
+It lays out functional and non-functional requirements,
+ and may include a set of use cases that describe user interactions that the software must provide.
+
+Why SRS?
+
+In order to fully understand one’s project,
+ it is very important that they come up with a SRS listing out their requirements,
+ how are they going to meet it and how will they complete the project.
+It helps the team to save upon their time as they are able to comprehend how are going to go about the project.
+Doing this also enables the team to find out about the limitations and risks early on.
