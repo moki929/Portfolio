@@ -6,3 +6,11 @@
 body {
   padding-top: 56px;
 }
+
+#jumbo {
+  background-image: url("../images/CodeWithMoki.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 400px;
+  background-size: cover;
+}
