@@ -1,0 +1,46 @@
+/*!
+ * Start Bootstrap - Heroic Features (https://startbootstrap.com/templates/heroic-features)
+ * Copyright 2013-2020 Start Bootstrap
+ * Licensed under MIT (https://github.com/StartBootstrap/startbootstrap-heroic-features/blob/master/LICENSE)
+ */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  margin: 0px;
+  padding: 56px 0px 0px 0px;
+}
+
+#jumbo {
+  background-image: url("../images/CodeWithMoki.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 400px;
+  background-size: cover;
+}
+
+#about {
+  background-image: url("../images/fam.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 400px;
+  background-size: cover;
+}
+
+#skills {
+  background-image: url("../images/clear.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 400px;
+  background-size: cover;
+}
+
+#contact {
+  background-image: url("../images/50.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 400px;
+  background-size: cover;
+}
