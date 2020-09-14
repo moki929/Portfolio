@@ -6,6 +6,7 @@
 * {
   margin: 0;
   padding: 0;
+  color: white;
 }
 
 body {
@@ -43,4 +44,8 @@ body {
   background-repeat: no-repeat;
   height: 400px;
   background-size: cover;
+}
+
+ul{
+  list-style: none;
 }
