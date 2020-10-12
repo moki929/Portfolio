@@ -1,0 +1,11 @@
+* {
+  background-color: black;
+  font-size: 99;
+  color: orange;
+  font-weight: normal;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+ctx {
+  font-size: 44;
+}
