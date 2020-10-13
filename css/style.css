@@ -23,18 +23,18 @@ body {
 }
 
 #about {
-  background-image: url("../images/fam.jpg");
+  background-image: url("https://media.giphy.com/media/14xzPQjU62JPbi/giphy.gif");
   background-position: center;
   background-repeat: no-repeat;
-  height: 400px;
+  height: 350px;
   background-size: cover;
 }
 
 #skills {
-  background-image: url("../images/clear.png");
+  background-image: url("https://images.unsplash.com/photo-1508317469940-e3de49ba902e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80");
   background-position: center;
   background-repeat: no-repeat;
-  height: 400px;
+  height: 350px;
   background-size: cover;
 }
 
