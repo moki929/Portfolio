@@ -30,13 +30,13 @@
     },
     "dependencies": {
         "bootstrap": "4.5.0",
-        "http-proxy": "^1.18.1",
         "jquery": "3.5.1"
     },
     "devDependencies": {
         "browser-sync": "2.26.7",
         "del": "5.1.0",
         "gulp": "4.0.2",
+        "http-proxy": "^1.18.1",
         "merge-stream": "2.0.0"
     }
 }
