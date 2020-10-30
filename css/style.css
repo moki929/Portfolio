@@ -1,51 +1,46 @@
-/*!
- * Start Bootstrap - Heroic Features (https://startbootstrap.com/templates/heroic-features)
- * Copyright 2013-2020 Start Bootstrap
- * Licensed under MIT (https://github.com/StartBootstrap/startbootstrap-heroic-features/blob/master/LICENSE)
- */
 * {
-  margin: 0;
-  padding: 0;
-  color: rgb(26, 0, 139);
+    margin: 0;
+    padding: 0;
+    color: rgb(26, 0, 139);
 }
 
 body {
-  margin: 0px;
-  padding: 56px 0px 0px 0px;
+    margin: 0px;
+    padding: 56px 0px 0px 0px;
 }
 
 #jumbo {
-  background-image: url("../images/CodeWithMoki.png");
-  background-position: center;
-  background-repeat: no-repeat;
-  height: 400px;
-  background-size: cover;
+    background-image: url("../images/CodeWithMoki.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 400px;
+    background-size: cover;
 }
 
 #about {
-  background-image: url("https://media.giphy.com/media/14xzPQjU62JPbi/giphy.gif");
-  background-position: center;
-  background-repeat: no-repeat;
-  height: 350px;
-  background-size: cover;
+    background-image: url("../images/horizon.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 350px;
+    background-size: cover;
 }
 
 #skills {
-  background-image: url("https://images.unsplash.com/photo-1508317469940-e3de49ba902e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80");
-  background-position: center;
-  background-repeat: no-repeat;
-  height: 350px;
-  background-size: cover;
+    background-image: url("https://images.unsplash.com/photo-1508317469940-e3de49ba902e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80");
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 350px;
+    background-size: cover;
 }
 
 #contact {
-  background-image: url("../images/50.jpg");
-  background-position: center;
-  background-repeat: no-repeat;
-  height: 400px;
-  background-size: cover;
+    background-image: url("../images/50.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 400px;
+    background-size: cover;
 }
 
 ul {
-  list-style: none;
+    list-style: none;
 }
