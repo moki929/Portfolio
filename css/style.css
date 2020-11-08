@@ -23,9 +23,9 @@ p {
 
 #about {
     background-image: url("../images/horizon.jpg");
-    background-position: center;
+    background-position: 50% 65%;
     background-repeat: no-repeat;
-    height: 350px;
+    height: 25vh;
     background-size: cover;
 }
 
