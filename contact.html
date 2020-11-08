@@ -3,22 +3,22 @@
 
 <head>
 
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <meta name="description" content="">
-  <meta name="author" content="">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
 
-  <title>Morgan's Profile</title>
+    <title>Morgan's Profile</title>
 
 
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" 
-  integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" 
+    integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
 
-  <!-- Bootstrap core CSS -->
-  <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Bootstrap core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
-  <!-- MoKi CSS edits -->
-  <link href="css/style.css" rel="stylesheet">
+    <!-- MoKi CSS edits -->
+    <link href="css/style.css" rel="stylesheet">
 
 
 </head>
@@ -26,6 +26,7 @@
 <body class="bg-dark">
 
 <!-- Navigation -->
+
 <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
   <div class="container">
     <a class="navbar-brand" href="/index.html">Contact Morgan</a>
@@ -53,32 +54,46 @@
   </div>
 </nav>
 
-  <!-- Page Content -->
-  <div class="container-fluid bg-dark">
+<!--Whole Page Container -->
+<div class="container-fluid bg-dark">
 
-<!-- Contact Section -->
-<div class="container">
-  <header>
-    <h2>Get in touch</h2>
-  </header>
-  <div class="content">
-    <p><strong>Contact me:</strong> I can be reached at many places. I prefer email, but I love a good phone call. Leave a message on my phone if I don't answer. I will call you back if the message is clear. </p>
-  </div>
-    
-  <div>
+<!-- Top of Page -->
+<div class="container-xl">
+    <header>
+        <h2>Get in touch</h2>
+    </header>
+    <div class="content">
+        <p><strong>Contact me:</strong> I do respond to voicemail. </p>
+    </div>
+</div>
+
+<!-- Top row with form on left -->
+<div class="row align-items-center">
+
+    <div class="col-7"> <!-- Form on Left -->
+        <form action="https://formspree.io/meqravqe" method="POST">
+            <div class="fields">
+                <div class="field half">
+                    <input type="text" name="name" id="name" placeholder="Name" />
+                </div>
+                <div class="field half">
+                    <input type="email" name="email" id="email" placeholder="Email" />
+                </div>
+                <div class="field">
+                    <textarea name="message" id="message" placeholder="Message" rows="7"></textarea>
+                </div>
+                <ul class="actions">
+                    <li><input type="submit" value="Send Message" class="button primary" /></li>
+                </ul>
+            </div>
+        </form>
+    </div>
+
+  <div class="col-5"> <!-- Contact info on Right -->
     <ul class="items">
-      <li>
-        <h3>Email</h3>
-        <a href="moking929@gmail.com">moking929 at gmail dot com</a>
-      </li>
-      <li>
-        <h3>Phone</h3>
-        <span> four 70 272 005 four</span>
-      </li>
-      <li>
-        <h3>Address</h3>
-        <span>Jefferson, GA, USA</span>
-      </li>
+      <li><h3>Email</h3><a href="moking929@gmail">moking929 at gmail dot com</a></li>
+      <li><h3>Phone</h3><span> four 70 272 005 four</span></li>
+      <li><h3>Country</h3><span>USA</span></li>
       <li>
         <h3>Social Links</h3>
         <ul class="icons">
@@ -93,45 +108,22 @@
     </ul>
   </div>
 
-<!-- E-Mail Form -->
-<form action="https://formspree.io/meqravqe" method="POST">
-  <div class="fields">
-    <div class="field half">
-      <input type="text" name="name" id="name" placeholder="Name" />
-    </div>
-    <div class="field half">
-      <input type="email" name="email" id="email" placeholder="Email" />
-    </div>
-    <div class="field">
-      <textarea name="message" id="message" placeholder="Message" rows="7"></textarea>
-    </div>
-  </div>
-  <ul class="actions">
-    <li><input type="submit" value="Send Message" class="button primary" /></li>
-  </ul>
-</form>
+</div> <!-- //closes the row -->
 
-
-
-<div class="copyright">&copy; Be Safe: 
-  <a href="https://www.freeprivacypolicy.com/privacy/view/3e64ce6f66517d78ea97a44dea3330f5">
-    Privacy Policy</a>.
+<div class="copyright">&copy; Be Safe:
+    <a href="https://www.freeprivacypolicy.com/privacy/view/3e64ce6f66517d78ea97a44dea3330f5">Privacy Policy</a>.
 </div>
 
-
-
-
-  <!-- Footer -->
-  <footer class="py-5 bg-dark">
+<!-- Footer -->
+<footer class="py-5 bg-dark">
     <div class="container">
-      <p class="m-0 text-center text-white">Copyright &copy; Morgan King 2020</p>
+        <p class="m-0 text-center text-white">Copyright &copy; Morgan King 2020</p>
     </div>
-    <!-- /.container -->
-  </footer>
+</footer>
 
-  <!-- Bootstrap core JavaScript -->
-  <script src="vendor/jquery/jquery.min.js"></script>
-  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+<!-- Bootstrap core JavaScript -->
+<script src="vendor/jquery/jquery.min.js"></script>
+<script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
 
 </body>
 
