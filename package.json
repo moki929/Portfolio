@@ -29,6 +29,7 @@
         "url": "https://github.com/StartBootstrap/startbootstrap-heroic-features.git"
     },
     "dependencies": {
+        "@fortawesome/fontawesome-free": "^5.15.1",
         "bootstrap": "4.5.0",
         "jquery": "3.5.1",
         "styled-components": "^5.2.1",

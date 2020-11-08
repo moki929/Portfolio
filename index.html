@@ -6,10 +6,10 @@
             name="viewport"
             content="width=device-width, initial-scale=1, shrink-to-fit=no"
         />
-        <meta name="description" content="" />
-        <meta name="author" content="" />
+        <meta name="description" content="Morgan's Profile Page" />
+        <meta name="author" content="MoKi" />
 
-        <title>03's Profile</title>
+        <title>MoKi Web Dev</title>
 
         <link
             rel="stylesheet"
@@ -47,30 +47,29 @@
                     <ul class="navbar-nav ml-auto">
                         <li class="nav-item active">
                             <a class="nav-link" href="/index.html"
-                                >Home
+                                >Top
                                 <span class="sr-only">(current)</span>
                             </a>
                         </li>
                         <li class="nav-item">
+                            <a class="nav-link" href="#skills">Skills</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#contact">Contact</a>
+                        </li>
+                        <li class="nav-item">
                             <a class="nav-link" href="/about.html">About</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="/skills.html">Skills</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="/contact.html">Contact</a>
                         </li>
                     </ul>
                 </div>
             </div>
         </nav>
 
-        <!-- Page Content -->
-        <div class="container-fluid bg-dark">
-            <!-- Jumbotron Header -->
-            <header class="jumbotron jumbotron-fluid my-4" id="jumbo"></header>
+        <!-- Code with Moki banner -->
+        <header class="jumbotron jumbotron-fluid my-4" id="jumbo"></header>
 
-            <!-- Page Features -->
+        <!-- Container for Modals -->
+        <div class="container-fluid bg-dark">
             <div class="row text-center">
                 <!-- card #1 -->
                 <div class="col-lg-3 col-md-6 mb-4">
@@ -340,7 +339,152 @@
             </div>
             <!-- /.row -->
         </div>
-        <!-- /.container -->
+        <!-- End of Row of Modals -->
+
+        <!-- Home -->
+        <article id="top" class="wrapper style1">
+            <div class="container">
+                <div class="row">
+                    <div class="col-4 col-5-large col-12-medium">
+                        <span class="image fit"
+                            ><img src="images/50.jpg" alt=""
+                        /></span>
+                    </div>
+                    <div class="col-8 col-7-large col-12-medium">
+                        <header>
+                            <h1>Hi. I'm <strong>Morgan King</strong>.</h1>
+                        </header>
+                        <p>
+                            And this is <strong>my profile</strong>, where you
+                            can see my passion for creating, &amp; I often use a
+                            simplified nickname:
+                            <a href="http://twitter.com/gokame2">MoKi</a>
+                        </p>
+                        <a href="#contact" class="button large scrolly"
+                            >Contact me</a
+                        >
+                    </div>
+                </div>
+            </div>
+        </article>
+
+        <!-- Contact form on left -->
+        <div id="contact" class="row">
+            <div class="col-7">
+                <!-- Form on Left -->
+                <form action="https://formspree.io/meqravqe" method="POST">
+                    <div class="fields">
+                        <div class="field half">
+                            <input
+                                type="text"
+                                name="name"
+                                id="name"
+                                placeholder="Name"
+                            />
+                        </div>
+                        <div class="field half">
+                            <input
+                                type="email"
+                                name="email"
+                                id="email"
+                                placeholder="Email"
+                            />
+                        </div>
+                        <div class="field">
+                            <textarea
+                                name="message"
+                                id="message"
+                                placeholder="Message"
+                                rows="7"
+                            ></textarea>
+                        </div>
+                        <ul class="actions">
+                            <li>
+                                <input
+                                    type="submit"
+                                    value="Send Message"
+                                    class="button primary"
+                                />
+                            </li>
+                        </ul>
+                    </div>
+                </form>
+            </div>
+
+            <div class="col-5">
+                <!-- Contact info on Right -->
+                <ul class="items">
+                    <li>
+                        <h3>Email</h3>
+                        <a href="moking929@gmail">moking929 at gmail dot com</a>
+                    </li>
+                    <li>
+                        <h3>Phone</h3>
+                        <span> four 70 272 005 four</span>
+                    </li>
+                    <li>
+                        <h3>Country</h3>
+                        <span>USA</span>
+                    </li>
+                    <li>
+                        <h3>Social Links</h3>
+                        <ul class="icons">
+                            <li>
+                                <a
+                                    href="https://twitter.com/Gokame2"
+                                    class="icon brands fa-twitter"
+                                    ><span class="label">Twitter</span></a
+                                >
+                            </li>
+                            <li>
+                                <a
+                                    href="https://www.instagram.com/king.sendai/"
+                                    class="icon brands fa-instagram"
+                                    ><span class="label">Instagram</span></a
+                                >
+                            </li>
+                            <li>
+                                <a
+                                    href="https://www.linkedin.com/in/morganaking/"
+                                    class="icon brands fa-linkedin-in"
+                                    ><span class="label">LinkedIn</span></a
+                                >
+                            </li>
+                            <li>
+                                <a
+                                    href="https://github.com/moki929"
+                                    class="fab fa-github"
+                                    ><span class="label"> GitHub</span></a
+                                >
+                            </li>
+                            <li>
+                                <a
+                                    href="https://codepen.io/MoKi929"
+                                    class="fab fa-codepen"
+                                    ><span class="label"> Codepen</span></a
+                                >
+                            </li>
+                            <li>
+                                <a
+                                    href="https://www.youtube.com/channel/UCorbzkEpIh7KXBuQgUcT3NA?view_as=subscriber"
+                                    >Check out my YouTube Channel about coding
+                                    and more</a
+                                >
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <!--end Contact Section-->>
+
+        <div class="copyright">
+            &copy; Be Safe:
+            <a
+                href="https://www.freeprivacypolicy.com/privacy/view/3e64ce6f66517d78ea97a44dea3330f5"
+                >Privacy Policy</a
+            >.
+        </div>
 
         <!-- Footer -->
         <footer class="py-5 bg-dark">
@@ -355,5 +499,6 @@
         <!-- Bootstrap core JavaScript -->
         <script src="vendor/jquery/jquery.min.js"></script>
         <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+        <script src="https://kit.fontawesome.com/a076d05399.js"></script>
     </body>
 </html>

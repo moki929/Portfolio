@@ -9,11 +9,15 @@ body {
     color: whitesmoke;
 }
 
+p {
+    color: black;
+}
+
 #jumbo {
     background-image: url("../images/CodeWithMoki.png");
     background-position: center;
     background-repeat: no-repeat;
-    height: 400px;
+    height: 25vh;
     background-size: cover;
 }
 
@@ -34,7 +38,8 @@ body {
 }
 
 #contact {
-    background-image: url("../images/50.jpg");
+    background-color: black;
+    color: whitesmoke;
     background-position: center;
     background-repeat: no-repeat;
     height: 400px;
