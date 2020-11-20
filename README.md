@@ -2,9 +2,13 @@
 
 [Heroic Features](https://startbootstrap.com/templates/heroic-features/) is a multipurpose HTML template for [Bootstrap](https://getbootstrap.com/) created by [Start Bootstrap](https://startbootstrap.com/).
 
-## Preview
+## Website
 
-[![Heroic Features Preview](https://startbootstrap.com/assets/img/screenshots/templates/heroic-features.png)](https://startbootstrap.github.io/startbootstrap-heroic-features/)
+[![Heroic Features Preview](https://moki929.github.io/Portfolio/)]
+
+https://moki929.github.io/Portfolio/
+https://moki929.github.io/Portfolio/#skills
+https://moki929.github.io/Portfolio/#contact
 
 **[View Live Preview](https://startbootstrap.github.io/startbootstrap-heroic-features/)**
 
